@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane id="AnchorPane" prefHeight="413.0" prefWidth="489.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="com.mycompany.calc.FXMLController">
+<AnchorPane id="AnchorPane" prefHeight="413.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.calc.FXMLController">
    <children>
       <TextField layoutX="90.0" layoutY="69.0" prefHeight="28.0" prefWidth="183.0" />
       <TextField layoutX="90.0" layoutY="111.0" prefHeight="28.0" prefWidth="183.0" />
@@ -34,8 +34,8 @@
       </GridPane>
       <Pane layoutX="90.0" layoutY="195.0" prefHeight="58.0" prefWidth="183.0">
          <children>
-            <RadioButton layoutY="6.0" mnemonicParsing="false" text="RadioButton" />
-            <RadioButton layoutY="29.0" mnemonicParsing="false" text="RadioButton" />
+            <RadioButton layoutY="16.0" mnemonicParsing="false" text="RadioButton" textOverrun="CLIP" />
+            <RadioButton layoutY="29.0" mnemonicParsing="false" text="RadioButton" textOverrun="CLIP" />
          </children>
       </Pane>
    </children>
